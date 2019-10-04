@@ -7,7 +7,7 @@ struct node
 	node *next;
 };
 
-node *start;
+node *start=NULL;//to start the node from start null must be there
 
 void insert(int x)
 {
