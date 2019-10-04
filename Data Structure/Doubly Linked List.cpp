@@ -8,7 +8,7 @@ struct node
 	node *next;
 };
 
-node *start;
+node *start=NULL;//this is done to start the linked list or to get the first node 
 
 void insert(int x)
 {
